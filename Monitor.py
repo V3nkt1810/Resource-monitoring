@@ -47,8 +47,8 @@ def get_swap_memory_usage():
     return swap.percent
 
 def send_alert_email(subject, body):
-    sender_email = "dinesh.narasimham@advance-auto.com"
-    recipient_email = "venkatesh.s@advance-auto.com"
+    sender_email = ""
+    recipient_email = ""
 
     msg = MIMEMultipart('alternative')
     msg['Subject'] = subject
